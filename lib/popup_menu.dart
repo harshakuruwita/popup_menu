@@ -204,14 +204,14 @@ class PopupMenu {
           child: Stack(
           children: <Widget>[
             // triangle arrow
-            Positioned(
-              left: _showRect.left + _showRect.width / 2.0 + 50 ,
-              top: _isDown ? offset.dy + menuHeight() : offset.dy - arrowHeight,
-              child: CustomPaint(
-                size: Size(15.0, arrowHeight),
-                painter: TrianglePainter(isDown: _isDown, color: _backgroundColor),
-              ),
-            ),
+//             Positioned(
+//               left: _showRect.left + _showRect.width / 2.0 + 50 ,
+//               top: _isDown ? offset.dy + menuHeight() : offset.dy - arrowHeight,
+//               child: CustomPaint(
+//                 size: Size(15.0, arrowHeight),
+//                 painter: TrianglePainter(isDown: _isDown, color: _backgroundColor),
+//               ),
+//           ),
             // menu content
             Positioned(
               left: offset.dx + 55,
