@@ -214,7 +214,7 @@ class PopupMenu {
             ),
             // menu content
             Positioned(
-              left: 10,//offset.dx,
+              left: offset.dx + 20,
               top: offset.dy,
               child: Container(
                 width: menuWidth(),
